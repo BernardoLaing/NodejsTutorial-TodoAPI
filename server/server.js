@@ -4,7 +4,7 @@ const {ObjectID}  = require('mongodb');
 
 const {mongoose}  = require('./models/mongoose');
 const {Todo}      = require('./models/Todo');
-const {User}      = require('./models/User');
+const {User}      = require('./models/user');
 
 var app = express();
 const port = process.env.PORT || 3000;
