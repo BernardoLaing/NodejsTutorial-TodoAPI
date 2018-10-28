@@ -6,9 +6,10 @@ const _           = require('lodash');
 const {mongoose}  = require('./models/mongoose');
 const {Todo}      = require('./models/Todo');
 const {User}      = require('./models/user');
+const config      = require('./config/config');
 
 var app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 app.use(bodyParser.json());
 
